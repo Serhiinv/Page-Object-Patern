@@ -22,4 +22,5 @@ public class GoogleSearchTest {
         GoogleSearchResultPage searchResultPage = new GoogleHomePage().open().search("funny dogs");
         searchResultPage.verifySearchResultLinkNumberContain(3, "dog");
     }
+
 }
